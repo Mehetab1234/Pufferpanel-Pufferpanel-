@@ -1,0 +1,16 @@
+{
+  "name": "mehetab/pufferpanel",
+  "description": "PufferPanel project for Render deployment",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  }
+}
